@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color : lightcoral;
 
     font-family: verdana;
@@ -20,4 +20,19 @@ body {
  padding: 1em;
  
  
+} */
+.hello{
+  background-color: indigo;
+}
+
+.nested
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(200px, auto);
+
+}
+.nested > div {
+  border: 1px solid grey;
+  background-color: hotpink;
 }

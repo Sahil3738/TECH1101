@@ -37,15 +37,16 @@ ul li{
 .title{
     font-size: 2.5rem;
     margin-bottom: 1.5em;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 5em;
+    background-color: rgba(236, 227, 227, 0.705);
 }
 .title:hover{
   color: white;
 }
 
 .title span{
-    font-weight: 300;
+    font-weight: 80;
     display: block;
     font-size: .9em;
 }
@@ -242,7 +243,7 @@ footer li span{
 }
 
 @media(min-width:60rem){
-    .background-image-Beers0{
+    .background-image-Beers-first{
         height: 100vh;
         padding-top: 35vh;
     }
@@ -253,18 +254,17 @@ footer li span{
     background-image: url(../img/beerTanks.jpg);
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 90px;
     color: rgba(194, 21, 21, 0.904);
     
 }
 
 @media(min-width:60rem){
-    .background-image-Beers1{
+    .background-image-Beers-second{
         height: 100vh;
         padding-top: 35vh;
     }
 }
-/* h1 , h2 class beers*/
 
 .main-beers{
     font-size: 14px;
@@ -272,47 +272,35 @@ footer li span{
 .p-BS{
     margin-top: -1em;
 }
-.div-beers{
-    position: relative;
-    bottom: 25em;
-    color:rgba(194, 21, 21, 0.904);
-    
-}
-.title-beers{
+
+.title-BS{
     font-size: 2.5rem;
     margin-bottom: 1.5em;
-    font-weight: 900;
-    margin-top: 5em;
-}
-.title-beers:hover{
-  color: white;
+    font-weight: 700;
+    margin-top: .5em;
+    background-color: rgba(236, 227, 227, 0.705);
 }
 
-.title-beers span{
-    font-weight: 300;
-    display: block; 
+.title-BS span{
+    font-weight: 80;
+    display: block;
     font-size: .9em;
 }
-
-
+.div-BS{
+    display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+.div-BS div{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
 /* BEERS  ending*/
 
 /* THE TASTING ROOM(TR) starting */
-.title-TR{
-    font-size: 2.5rem;
-    margin-bottom: 1.5em;
-    font-weight: 900;
-    margin-top: 5em;
-}
-.title-TR:hover{
-  color: white;
-}
-.title-TR span{
-    font-weight: 300;
-    display: block;
-    font-size: .7em;
-}
-
 .background-image-Taste{
     padding: 10em 0;
     background-image: url(../img/tastetatianarodriguez-unsplash.JPG);
@@ -529,8 +517,8 @@ section li{
 }
 iframe{
     width: 100%;
-     height:300px;
-     }
+    height:300px;
+}
 /* FIND US (FU)  ending*/
 
 
